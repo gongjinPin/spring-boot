@@ -1,0 +1,11 @@
+server:
+  port: 34000
+spring:
+  application:
+    name: service-user
+  profiles:
+    active:  native
+eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://pin100:pin100@127.0.0.1:30000/eureka/
