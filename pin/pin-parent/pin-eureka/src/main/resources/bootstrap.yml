@@ -1,8 +1,0 @@
-#encrypt:
-#  key-store:
-#    location: classpath:/ydc-config.keystore
-#    alias: cgjConfigKey
-#    password: ydccgj1001
-#    secret: ydccgj1001.*
-logging:
- config: classpath:log4j2-spring.xml
