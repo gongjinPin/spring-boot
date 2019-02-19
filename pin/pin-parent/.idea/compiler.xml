@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="controller-user" />
+        <module name="dao-user" />
+        <module name="pin-common" />
+        <module name="pin-config" />
+        <module name="pin-eureka" />
+        <module name="pin-model" />
+        <module name="service-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="controller" target="1.8" />
+      <module name="controller-user" target="1.8" />
+      <module name="dao-user" target="1.8" />
+      <module name="pin-common" target="1.8" />
+      <module name="pin-config" target="1.8" />
+      <module name="pin-dao" target="1.8" />
+      <module name="pin-eureka" target="1.8" />
+      <module name="pin-model" target="1.8" />
+      <module name="pin-parent" target="1.8" />
+      <module name="pin-service" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="service-user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
