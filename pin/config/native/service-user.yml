@@ -3,8 +3,6 @@ server:
 spring:
   application:
     name: service-user
-  profiles:
-    active:  native
 eureka:
     client:
       serviceUrl:
