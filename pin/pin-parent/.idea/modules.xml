@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/controller/controller.iml" filepath="$PROJECT_DIR$/controller/controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/controller/controller-user/controller-user.iml" filepath="$PROJECT_DIR$/controller/controller-user/controller-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pin-dao/dao-user/dao-user.iml" filepath="$PROJECT_DIR$/pin-dao/dao-user/dao-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/pin-common/pin-common.iml" filepath="$PROJECT_DIR$/pin-common/pin-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/pin-config/pin-config.iml" filepath="$PROJECT_DIR$/pin-config/pin-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/pin-dao/pin-dao.iml" filepath="$PROJECT_DIR$/pin-dao/pin-dao.iml" />

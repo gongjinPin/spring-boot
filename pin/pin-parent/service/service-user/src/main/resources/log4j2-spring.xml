@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="info"  name="service-user" packages="com.pin.service.user">
+<Configuration status="info"  name="service-user" packages="">
     <Properties>
         <Property name="log_pattern">%d{yyyy:MM:dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n</Property>
         <Property name="log_charset">UTF-8</Property>

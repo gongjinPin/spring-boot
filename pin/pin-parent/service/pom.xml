@@ -30,8 +30,8 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.pin.dao</groupId>
-            <artifactId>pin-dao</artifactId>
+            <groupId>com.pin.dao.user</groupId>
+            <artifactId>dao-user</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

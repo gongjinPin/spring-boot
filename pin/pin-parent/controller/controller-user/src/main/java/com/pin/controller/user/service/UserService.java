@@ -7,4 +7,6 @@ package com.pin.controller.user.service;
 public interface UserService {
 
     String demo();
+
+    String getSysUser(Integer id);
 }

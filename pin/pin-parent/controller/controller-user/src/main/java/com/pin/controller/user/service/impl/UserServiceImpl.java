@@ -19,4 +19,9 @@ public class UserServiceImpl implements UserService {
     public String demo() {
         return userFeignService.demo();
     }
+
+    @Override
+    public String getSysUser(Integer id) {
+        return userFeignService.getSysUser(id);
+    }
 }

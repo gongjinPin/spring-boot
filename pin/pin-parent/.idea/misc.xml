@@ -7,12 +7,12 @@
         <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/pin-common/pom.xml" />
         <option value="$PROJECT_DIR$/pin-model/pom.xml" />
-        <option value="$PROJECT_DIR$/pin-dao/pom.xml" />
         <option value="$PROJECT_DIR$/pin-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/pin-config/pom.xml" />
         <option value="$PROJECT_DIR$/controller/pom.xml" />
         <option value="$PROJECT_DIR$/service/service-user/pom.xml" />
         <option value="$PROJECT_DIR$/controller/controller-user/pom.xml" />
+        <option value="$PROJECT_DIR$/pin-dao/dao-user/pom.xml" />
       </list>
     </option>
   </component>

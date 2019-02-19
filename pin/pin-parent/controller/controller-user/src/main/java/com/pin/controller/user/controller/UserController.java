@@ -1,11 +1,14 @@
 package com.pin.controller.user.controller;
 
+import com.pin.common.util.JsonUtil;
 import com.pin.controller.user.service.UserService;
+import com.pin.model.user.sys.SysUser;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -27,4 +30,9 @@ public class UserController {
         return userService.demo();
     }
 
+    @PostMapping(value = "/getSysUser")
+    public String getSysUser(@RequestParam("id") Integer id){
+        logger.info("subject:{},sysUser","id对象数据",id);
+        return userService.getSysUser(id);
+    }
 }
