@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/controller/controller.iml" filepath="$PROJECT_DIR$/controller/controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controller/controller-user/controller-user.iml" filepath="$PROJECT_DIR$/controller/controller-user/controller-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pin-dao/dao-user/dao-user.iml" filepath="$PROJECT_DIR$/pin-dao/dao-user/dao-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pin-common/pin-common.iml" filepath="$PROJECT_DIR$/pin-common/pin-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pin-config/pin-config.iml" filepath="$PROJECT_DIR$/pin-config/pin-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pin-dao/pin-dao.iml" filepath="$PROJECT_DIR$/pin-dao/pin-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pin-eureka/pin-eureka.iml" filepath="$PROJECT_DIR$/pin-eureka/pin-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pin-model/pin-model.iml" filepath="$PROJECT_DIR$/pin-model/pin-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pin-mongodb/pin-mongodb.iml" filepath="$PROJECT_DIR$/pin-mongodb/pin-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pin-parent.iml" filepath="$PROJECT_DIR$/pin-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-user/service-user.iml" filepath="$PROJECT_DIR$/service/service-user/service-user.iml" />
+    </modules>
+  </component>
+</project>

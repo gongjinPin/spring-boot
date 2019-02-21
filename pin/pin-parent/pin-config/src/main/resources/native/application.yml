@@ -1,0 +1,17 @@
+server:
+  port: 39999
+spring:
+  cloud:
+    config:
+      enabled: true
+      server:
+          native:
+             search-locations: F:/pin/config/native
+  profiles:
+      active: native
+  application:
+      name: pin-config
+  security:
+      user:
+        name: pin1001
+        password: pin1001

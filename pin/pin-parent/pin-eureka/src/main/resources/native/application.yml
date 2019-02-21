@@ -1,0 +1,25 @@
+server:
+  port: 30000
+spring:
+  application:
+    name: pin-eurake
+  profiles:
+    active: native
+  security:
+    basis:
+      enabled: true # 开启基于HTTP basic的认证
+    user:
+      name: pin100 # 配置登录的账号是pin100
+      password: pin100 #配置登录的密码是pin100
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: 127.0.0.1
+  server:
+        enable-self-preservation: false      # 关闭自我保护模式（默认为打开） 内网通信可以关闭自我保护模式
+#        eviction-interval-timer-in-ms: 5000  # 续期时间，即扫描失效服务的间隔时间（缺省为60*1000ms）
+  client:
+      register-with-eureka: false  #是否将自己注册到Eureka Server上，默认为true
+      fetch-registry: false #是否从Eureka Server上获取注册信息，默认为true
+      service-url:
+        defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@${eureka.instance.hostname}:${server.port}/eureka/
