@@ -11,3 +11,6 @@
 #### http://localhost:30000/
 #### 用户名:pin100
 #### 密码:pin100
+
+###  新增mongodb
+#### 安装mongodb,修改连接配置
